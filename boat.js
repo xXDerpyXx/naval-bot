@@ -1,5 +1,6 @@
 module.exports = class boat{
-    constructor(x,y,type){
+    constructor(x,y,type,name){
+        this.name = name;
         this.x = x;
         this.y = y;
         this.type = type;
