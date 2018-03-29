@@ -3,6 +3,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const client = new Discord.Client();
 var data = require("./data.json");
+var call = "!";
 
 function save(){
 	var temp = JSON.stringify(data);
@@ -12,6 +13,6 @@ function save(){
 }
 
 client.on('message', msg => {
-    
+    content = msg.content.split(" ");
 });
 client.login(token);
