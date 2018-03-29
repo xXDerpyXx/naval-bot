@@ -22,7 +22,11 @@ client.on('message', msg => {
         if(data["boats"][msg.author.id] == null){
             msg.channel.send("you dont have a boat!");
         }else{
-            msg.channel.send(data["boats"][msg.author.id]);
+            var temp = "";
+            for(k in data["boats"][msg.author.id]){
+                temp+=k+": "+data["boats"][msg.author.id][k]+"\n";
+            }
+            msg.channel.send(temp);
         }
     }
 
