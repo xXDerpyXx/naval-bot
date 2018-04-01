@@ -8,10 +8,13 @@ module.exports = class boat{
         this.range = 0; //how far it can attack
         this.dodge = 0; // how likely to miss (1 to 10)
         this.attack = 0; //amount of damage per successful hit
+        this.xp = 0;
+        this.takenTurn = false;
+
         switch(this.type){
             case "submarine":
                 this.hp = 5
-                this.dodge = 5;
+                this.dodge = 7;
                 this.range = 3;
                 this.attack = 1;
             break;
@@ -34,5 +37,7 @@ module.exports = class boat{
                 this.attack = 1;
             break;
         }
+
+        this.maxHp = this.hp;
     }
 }

@@ -1,1 +1,1 @@
-{}
+{"boats":{"250419188525432832":{"name":"pls_don't_hurt_me","x":0,"y":1,"type":"cruiser","hp":6,"range":7,"dodge":3,"attack":1,"xp":0,"takenTurn":false,"maxHp":6},"246589957165023232":{"name":"sneaky-sub","x":-1,"y":1,"type":"submarine","hp":5,"range":3,"dodge":7,"attack":1,"xp":0,"takenTurn":false,"maxHp":5},"193929691801845760":{"name":"Poly","x":0,"y":0,"type":"convoy","hp":2,"range":2,"dodge":1,"attack":3,"xp":0,"takenTurn":false,"maxHp":3}}}
